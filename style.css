@@ -1,0 +1,22 @@
+#chat-container {
+	width: 400px;
+	height: 400px;
+	background-color: lightgray;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#messages {
+	height: 300px;
+	overflow-y: scroll;
+	margin-bottom: 10px;
+}
+
+#message-form {
+	display: flex;
+}
+
+#message-input {
+	flex-grow: 1;
+	margin-right: 10px;
+}
